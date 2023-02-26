@@ -1,4 +1,4 @@
-# nosamu's web testing ground
+# WinIsEpic's swfs
 Useful web tools and demos, mostly related to Flash emulation.
 
 ## Flash Emulation Demos
