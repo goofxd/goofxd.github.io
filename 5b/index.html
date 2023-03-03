@@ -1,0 +1,25 @@
+<div id="container">
+      <script>
+      window.RufflePlayer = window.RufflePlayer || {};
+      window.RufflePlayer.config = {
+      autoplay: "auto",
+      quality: "medium",
+      backgroundColor: "#37528c",
+      base: "https://winisepic.github.io/swfs/5b/"
+}
+    window.addEventListener("DOMContentLoaded", () => {
+        let ruffle = window.RufflePlayer.newest(); 
+        let player = ruffle.createPlayer();
+        let container = document.getElementById("container");
+        container.appendChild(player);
+        player.load("https://winisepic.github.io/swfs/5b/c.swf?path=5b.swf" ); 
+	player.style.width = "100vw"; player.style.height = "100vh";
+    });
+</script>
+<script src="https://winisepic.github.io/ruffle-selfhost/ruffle/ruffle.js"></script>
+<style>
+      *{
+       margin: 0;
+        overflow: hidden;
+      }
+</style>
