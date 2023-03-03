@@ -2,7 +2,9 @@
       <script>
       window.RufflePlayer = window.RufflePlayer || {};
       window.RufflePlayer.config = {
-     }
+      backgroundColor: "#37528c",
+      autoplay: "auto",      
+      }
     window.addEventListener("DOMContentLoaded", () => {
         let ruffle = window.RufflePlayer.newest(); 
         let player = ruffle.createPlayer();
@@ -12,7 +14,7 @@
 	player.style.width = "100vw"; player.style.height = "100vh";
     });
 </script>
-<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+<script src="https://unpkg.com/@ruffle-rs/ruffle/ruffle.js"></script>
 </script>
     <style>
       * {
