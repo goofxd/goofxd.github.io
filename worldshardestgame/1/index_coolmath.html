@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<div id="container">
+      <script>
+      window.RufflePlayer = window.RufflePlayer || {};
+      window.RufflePlayer.config = {
+      letterbox: "on",
+      autoplay: "auto",
+      quality: "high",
+      backgroundColor: "#37528c",
+      base: "https://itsnotgames.github.io/swfs/"
+}
+    window.addEventListener("DOMContentLoaded", () => {
+        let ruffle = window.RufflePlayer.newest(); 
+        let player = ruffle.createPlayer();
+        let container = document.getElementById("container");
+        container.appendChild(player);
+        player.load("whg_coolmath.swf" ); 
+	player.style.width = "100vw"; player.style.height = "100vh";
+    });
+</script>
+<script src="../../ruffle/ruffle.js"></script>
+<style>
+      *{
+       margin: 0;
+        overflow: hidden;
+      }
+</style>
+</body>
+</html>
