@@ -36,16 +36,8 @@ button {
 	<script src="https://debbiewatermanphd.com/uploads/1/2/6/0/126072267/police_pursuit2.js"></script>
 
     <script type="text/javascript">
-
-      var gameInstance;
-
-      window.onload = function () {
-
-          gameInstance = UnityLoader.instantiate("gameContainer", "https://debbiewatermanphd.com/uploads/1/2/6/0/126072267/police_pursuit2.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
-          
-        
-      }
-    </script>
+var gameInstance = UnityLoader.instantiate("gameContainer", "https://debbiewatermanphd.com/uploads/1/2/6/0/126072267/police_pursuit2.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
+</script>
 
     <div class="webgl-content">
 
@@ -53,15 +45,6 @@ button {
 
     </div>
 
- <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146349913-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-146349913-1');
-</script>
 
 
 
