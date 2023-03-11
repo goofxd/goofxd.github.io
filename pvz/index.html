@@ -1,15 +1,40 @@
-
-<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-<embed height="100%;" pluginspage=" http://www.macromedia.com/go/getflashplayer" src="https://winisepic.github.io/swfs/pvz/plantsvszombies.swf" 
-width="100%;"></embed>
-
-<script>
-window.RufflePlayer = window.RufflePlayer || {};
-window.RufflePlayer.config = {
-    "autoplay": "on",
-    "unmuteOverlay": "hidden",
-    "letterbox": "on",
-    "base": "https://winisepic.github.io/swfs/pvz/"
-
-};
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<div id="container">
+      <script>
+      window.RufflePlayer = window.RufflePlayer || {};
+      window.RufflePlayer.config = {
+      letterbox: "on",
+      autoplay: "auto",
+      quality: "high",
+      backgroundColor: "#353535",
+}
+    window.addEventListener("DOMContentLoaded", () => {
+        let ruffle = window.RufflePlayer.newest(); 
+        let player = ruffle.createPlayer();
+        let container = document.getElementById("container");
+        container.appendChild(player);
+        player.load("pvz.swf" ); 
+	player.style.width = "100vw"; player.style.height = "100vh";
+    });
 </script>
+<script src="../../ruffle/ruffle.js"></script>
+<style>
+      *{
+       margin: 0;
+        overflow: hidden;
+      }
+ruffle-player, ruffle-embed, ruffle-object {
+            --splash-screen-background: #353535;
+            --logo-display: block;
+      }
+</style>
+</body>
+</html>
+
+
+
+
+
+
