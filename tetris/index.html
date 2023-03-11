@@ -8,8 +8,9 @@
       letterbox: "on",
       autoplay: "auto",
       quality: "high",
-      backgroundColor: "#FFFFFF",
-      base: "https://itsnotgames.github.io/swfs/"
+      backgroundColor: "#ffffff",
+      autoplay: "on",
+      unmuteOverlay: "hidden",
 }
     window.addEventListener("DOMContentLoaded", () => {
         let ruffle = window.RufflePlayer.newest(); 
@@ -25,6 +26,10 @@
       *{
        margin: 0;
         overflow: hidden;
+      }
+ruffle-player, ruffle-embed, ruffle-object {
+            --splash-screen-background: #353535;
+            --logo-display: block;
       }
 </style>
 </body>

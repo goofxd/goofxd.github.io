@@ -8,15 +8,14 @@
       letterbox: "on",
       autoplay: "auto",
       quality: "high",
-      backgroundColor: "#37528c",
-      base: "https://itsnotgames.github.io/swfs/"
+      backgroundColor: "#353535",
 }
     window.addEventListener("DOMContentLoaded", () => {
         let ruffle = window.RufflePlayer.newest(); 
         let player = ruffle.createPlayer();
         let container = document.getElementById("container");
         container.appendChild(player);
-        player.load("theimpossiblequiz2.swf" ); 
+        player.load("theimpossiblequiz.swf" ); 
 	player.style.width = "100vw"; player.style.height = "100vh";
     });
 </script>
@@ -25,6 +24,10 @@
       *{
        margin: 0;
         overflow: hidden;
+      }
+ruffle-player, ruffle-embed, ruffle-object {
+            --splash-screen-background: #353535;
+            --logo-display: block;
       }
 </style>
 </body>
