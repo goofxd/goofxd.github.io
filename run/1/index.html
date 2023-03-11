@@ -4,14 +4,15 @@
       window.RufflePlayer.config = {
       autoplay: "auto",
       quality: "medium",
-      backgroundColor: "#37528c",
+      backgroundColor: "#353535",
+      letterbox: "on",
 }
     window.addEventListener("DOMContentLoaded", () => {
         let ruffle = window.RufflePlayer.newest(); 
         let player = ruffle.createPlayer();
         let container = document.getElementById("container");
         container.appendChild(player);
-        player.load("https://winisepic.github.io/swfs/run/1/run_kongregate.swf" ); 
+        player.load("run_kongregate.swf" ); 
 	player.style.width = "100vw"; player.style.height = "100vh";
     });
 </script>
@@ -20,5 +21,20 @@
       *{
        margin: 0;
         overflow: hidden;
-      }
+       }
+ruffle-player, ruffle-embed, ruffle-object {
+            --splash-screen-background: #353535;
+            --logo-display: block;
+       }
 </style>
+
+
+
+
+
+
+
+
+
+
+
