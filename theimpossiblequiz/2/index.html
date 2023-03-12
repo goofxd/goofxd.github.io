@@ -8,14 +8,14 @@
       letterbox: "on",
       autoplay: "auto",
       quality: "high",
-      backgroundColor: "#353535",
+      backgroundColor: "null",
 }
     window.addEventListener("DOMContentLoaded", () => {
         let ruffle = window.RufflePlayer.newest(); 
         let player = ruffle.createPlayer();
         let container = document.getElementById("container");
         container.appendChild(player);
-        player.load("theimpossiblequiz.swf" ); 
+        player.load("theimpossiblequiz2.swf" ); 
 	player.style.width = "100vw"; player.style.height = "100vh";
     });
 </script>
