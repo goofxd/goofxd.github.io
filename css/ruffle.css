@@ -1,9 +1,0 @@
-ruffle-player, ruffle-embed, ruffle-object {
-     --splash-screen-background: #353535;
-      --logo-display: block;
-        width: 100%;
-        height: 100%;
-}
-body {
- margin: 0;
-}

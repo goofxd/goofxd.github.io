@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <body>
 <div id="container">
       <script>
       window.RufflePlayer = window.RufflePlayer || {};
       window.RufflePlayer.config = {
       letterbox: "on",
-      autoplay: "on",
+      autoplay: "auto",
       quality: "high",
       backgroundColor: "#353535",
-      unmuteOverlay: "hidden",
       
 }
     window.addEventListener("DOMContentLoaded", () => {
@@ -18,19 +17,19 @@
         let container = document.getElementById("container");
         container.appendChild(player);
         player.load("whg_snubbyland.swf" ); 
-	player.style.width = "100vw"; player.style.height = "100vh";
+	player.style.width = "100%"; 
+        player.style.height = "100%";
     });
 </script>
 <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 <style>
-      *{
+      body{
        margin: 0;
-        overflow: hidden;
       }
 ruffle-player, ruffle-embed, ruffle-object {
             --splash-screen-background: #353535;
             --logo-display: block;
-      }
+       }
 </style>
 </body>
 </html>
