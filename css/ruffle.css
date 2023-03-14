@@ -1,10 +1,10 @@
-body{
-       margin: 0;
-       overflow: hidden;
-      }
 ruffle-player, ruffle-object, ruffle-embed {
-     --preloader-background: #1c1c1c;
+     --splash-screen-background #151515;
      --logo-display: block;
        width: 100vw;
        height: 100vh;
+}
+body{
+       margin: 0;
+       overflow: hidden;
 }
