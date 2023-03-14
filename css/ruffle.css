@@ -1,5 +1,5 @@
-ruffle-player, ruffle-object, ruffle-embed {
-     --splash-screen-background #151515;
+ruffle-player, ruffle-object, {
+     --splash-screen-background: #151515;
      --logo-display: block;
        width: 100vw;
        height: 100vh;
