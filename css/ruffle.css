@@ -2,7 +2,7 @@ body{
        margin: 0;
        overflow: hidden;
       }
-ruffle-player, ruffle-object {
+ruffle-player, ruffle-object, ruffle-embed {
      --preloader-background: #1c1c1c;
      --logo-display: block;
        width: 100vw;
