@@ -1,0 +1,10 @@
+body{
+       margin: 0;
+       overflow: hidden;
+      }
+ruffle-player, ruffle-object {
+     --preloader-background: #1c1c1c;
+     --logo-display: block;
+       width: 100vw;
+       height: 100vh;
+}

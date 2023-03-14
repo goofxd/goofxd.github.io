@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<head>
+  <link rel="stylesheet" href="../css/ruffle.css">
+</head>
 <body>
 <div id="container">
       <script>
@@ -8,24 +11,19 @@
       letterbox: "on",
       autoplay: "auto",
       quality: "high",
-      backgroundColor: "#37528c",
-      base: "https://winisepic.github.io/swfs/"
+      backgroundColor: "#353535",
+      
 }
-    window.addEventListener("DOMContentLoaded", () => {
-        let ruffle = window.RufflePlayer.newest(); 
-        let player = ruffle.createPlayer();
-        let container = document.getElementById("container");
+     window.RufflePlayer = window.RufflePlayer || {};
+    window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        const container = document.getElementById("container");
         container.appendChild(player);
-        player.load("bloonstd.swf" ); 
-	player.style.width = "100vw"; player.style.height = "100vh";
+        player.load("bloonstd.swf"); 
+	
     });
 </script>
-<script src="../../../ruffle/ruffle.js"></script>
-<style>
-      *{
-       margin: 0;
-        overflow: hidden;
-      }
-</style>
-</body>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+ </body>
 </html>
