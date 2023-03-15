@@ -16,15 +16,20 @@
       
 }
      window.RufflePlayer = window.RufflePlayer || {};
-    window.addEventListener("load", (event) => {
-        const ruffle = window.RufflePlayer.newest();
-        const player = ruffle.createPlayer();
-        const container = document.getElementById("container");
+
+    window.addEventListener("DOMContentLoaded", () => {
+        let ruffle = window.RufflePlayer.newest();
+        let player = ruffle.createPlayer();
+        let container = document.getElementById("container");
         container.appendChild(player);
-        player.load("whg_snubbyland.swf"); 
+        player.load("whg_snubbyland.swf");
 	
     });
 </script>
 <script src="/../../ruffle/ruffle.js"></script>
  </body>
 </html>
+
+
+
+ 
