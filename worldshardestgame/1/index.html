@@ -8,13 +8,14 @@
       <script>
       window.RufflePlayer = window.RufflePlayer || {};
       window.RufflePlayer.config = {
-      letterbox: "on",
+      letterbox: "off",
       autoplay: "on",
       quality: "high",
-      backgroundColor: "#353535",
+      backgroundColor: null,
       unmuteOverlay: "hidden",
+      showSwfDownload: true,
       
-}
+};
      window.RufflePlayer = window.RufflePlayer || {};
 
     window.addEventListener("DOMContentLoaded", () => {
@@ -26,10 +27,9 @@
 	
     });
 </script>
-<script src="/../../ruffle/ruffle.js"></script>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
  </body>
 </html>
 
 
 
- 
