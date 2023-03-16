@@ -10,10 +10,8 @@
       window.RufflePlayer.config = {
       letterbox: "on",
       autoplay: "on",
-      quality: "high",
       backgroundColor: null,
       unmuteOverlay: "hidden",
-       warnOnUnsupportedContent: false,
       
 }
      window.RufflePlayer = window.RufflePlayer || {};
@@ -22,7 +20,7 @@
         const player = ruffle.createPlayer();
         const container = document.getElementById("container");
         container.appendChild(player);
-        player.load("bloonstd4.swf"); 
+        player.load("btd4.swf"); 
 	
     });
 </script>
