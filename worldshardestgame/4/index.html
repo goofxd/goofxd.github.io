@@ -10,9 +10,8 @@
       window.RufflePlayer.config = {
       letterbox: "on",
       autoplay: "on",
-      quality: "high",
-      backgroundColor: "#353535",
-       unmuteOverlay: "hidden",
+      backgroundColor: null,
+      unmuteOverlay: "hidden",
       
 }
      window.RufflePlayer = window.RufflePlayer || {};
@@ -21,7 +20,7 @@
         const player = ruffle.createPlayer();
         const container = document.getElementById("container");
         container.appendChild(player);
-        player.load("whg4_snubbyland.swf"); 
+        player.load("whg4.swf"); 
 	
     });
 </script>
