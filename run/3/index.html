@@ -1,24 +1,30 @@
-<div id="container"></div>
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/../css/ruffle.css">
+</head>
+<body>
+<div id="container">
       <script>
       window.RufflePlayer = window.RufflePlayer || {};
       window.RufflePlayer.config = {
-      backgroundColor: "#37528c",
-      autoplay: "auto",      
-      }
-    window.addEventListener("DOMContentLoaded", () => {
-        let ruffle = window.RufflePlayer.newest(); 
-        let player = ruffle.createPlayer();
-        let container = document.getElementById("container");
+      letterbox: "on",
+      autoplay: "on",
+      backgroundColor: null,
+      unmuteOverlay: "hidden",
+      
+}
+     window.RufflePlayer = window.RufflePlayer || {};
+    window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        const container = document.getElementById("container");
         container.appendChild(player);
-        player.load("https://www.coolmath-games.com/sites/cmatgame/files/games/run3.swf" ); 
-	player.style.width = "100vw"; player.style.height = "100vh";
+        player.load("https://www.coolmath-games.com/sites/cmatgame/files/games/run3.swf"); 
+	
     });
 </script>
 <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-</script>
-    <style>
-      * {
-        margin: 0;
-        overflow: hidden;
-      	}
-</style>
+ </body>
+</html>
+

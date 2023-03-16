@@ -9,9 +9,9 @@
       window.RufflePlayer = window.RufflePlayer || {};
       window.RufflePlayer.config = {
       letterbox: "on",
-      autoplay: "auto",
-      quality: "high",
-      backgroundColor: "#353535",
+      autoplay: "on",
+      backgroundColor: null,
+      unmuteOverlay: "hidden",
       
 }
      window.RufflePlayer = window.RufflePlayer || {};
@@ -20,7 +20,7 @@
         const player = ruffle.createPlayer();
         const container = document.getElementById("container");
         container.appendChild(player);
-        player.load("404612_Portal.swf" ); 
+        player.load("Portal.swf"); 
 	
     });
 </script>

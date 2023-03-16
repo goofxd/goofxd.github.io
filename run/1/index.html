@@ -1,40 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/../css/ruffle.css">
+</head>
+<body>
 <div id="container">
       <script>
       window.RufflePlayer = window.RufflePlayer || {};
       window.RufflePlayer.config = {
-      autoplay: "auto",
-      quality: "medium",
-      backgroundColor: "#353535",
       letterbox: "on",
+      autoplay: "on",
+      backgroundColor: null,
+      unmuteOverlay: "hidden",
+      
 }
-    window.addEventListener("DOMContentLoaded", () => {
-        let ruffle = window.RufflePlayer.newest(); 
-        let player = ruffle.createPlayer();
-        let container = document.getElementById("container");
+     window.RufflePlayer = window.RufflePlayer || {};
+    window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        const container = document.getElementById("container");
         container.appendChild(player);
-        player.load("run_kongregate.swf" ); 
-	player.style.width = "100vw"; player.style.height = "100vh";
+        player.load("run.swf"); 
+	
     });
 </script>
 <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-<style>
-      *{
-       margin: 0;
-        overflow: hidden;
-       }
-ruffle-player, ruffle-embed, ruffle-object {
-            --splash-screen-background: #353535;
-            --logo-display: block;
-       }
-</style>
-
-
-
-
-
-
-
-
-
-
-
+ </body>
+</html>
