@@ -98,7 +98,7 @@ function oriChange(e) {
         game.paused = true;
     }
 }
-var arr = ['coolmathgames.com', 'numuki.com', 'github.io', 'itsnut.github.io', 'sites.google.com','coolmath-games.com', 'cmatgame.local'];
+var arr = ['coolmathgames.com', 'google.com.com', 'github.io', 'itsnut.github.io', 'sites.google.com', 'gstatic.com', 'coolmath-games.com', 'cmatgame.local'];
 function storageAvailable() {
     game.storageAvailable = true;
     if (typeof localStorage === 'object') {
