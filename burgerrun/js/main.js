@@ -98,7 +98,7 @@ function oriChange(e) {
         game.paused = true;
     }
 }
-var arr = ['coolmathgames.com', 'google.com', 'github.io', 'itsnut.github.io', 'sites.google.com', 'gstatic.com', 'schema.org', 'cmatgame.local'];
+
 function storageAvailable() {
     game.storageAvailable = true;
     if (typeof localStorage === 'object') {
@@ -153,12 +153,8 @@ game.state.add('Loader', LoaderState);
 game.state.add('Title', TitleState);
 game.state.add('Level', LevelState);
 game.state.add('GameOver', GameOverState);
-var tld = window.self.location.hostname.split(".").splice(-2).join('.');
-if (arr.indexOf(tld) >= 0) {
-    game.state.start('Main');
-} else {
-    game.dd = true;
-}
+game.state.start('Main');
+
 function settings(st) {
     st.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
     onSizeChange();
