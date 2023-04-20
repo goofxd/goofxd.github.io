@@ -34,9 +34,9 @@ function goClick(pointer) {
     if (rotDevice) {
         return;
     }
-    if (parent && parent.cmgGameEvent) {
-        parent.cmgGameEvent('start');
-    }
+    
+      parent.cmgGameEvent('start');
+    
     levl = 0;
     clickSound();
     newState();
