@@ -33,10 +33,7 @@ var GameOverState = {
 function goClick(pointer) {
     if (rotDevice) {
         return;
-    }
-    
-      parent.cmgGameEvent('start');
-    
+    } 
     levl = 0;
     clickSound();
     newState();
