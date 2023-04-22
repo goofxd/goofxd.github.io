@@ -2326,9 +2326,6 @@ function controlDown(pointer) {
     if (sprt.gameDone) {
         sprt.gameDone = null;
         game.sound.stopAll();
-        if (parent && parent.cmgGameEvent) {
-            parent.cmgGameEvent('start');
-        }
         levl = 0;
         newState();
         return;
