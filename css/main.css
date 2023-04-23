@@ -318,16 +318,17 @@ background:#121212;
   }
 
   h3 {
-    color: white;
-    font-size: 24px;
-    margin: 20px 0 0 20px;
-
+    color: #fff;
+    font-size: 16px;
+    margin: 40px 0 0 20px;
+  
+    
   }
 
   p {
     color: white;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     align-self: end;
     margin: 0 0 20px 20px;
     letter-spacing: 0.5px;
@@ -340,7 +341,7 @@ background:#121212;
     width: 100%;
     z-index: -1;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-    filter: brightness(0.6);
+    filter: brightness(0.5);
   }
 
   .card:hover {
