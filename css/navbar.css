@@ -1,0 +1,40 @@
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #1c1c1c;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index: 9999;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+  z-index: 9999;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+  z-index: 9999;
+}
+
+.card:hover {
+    transform: scale(1.035, 1.035);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  }
+
