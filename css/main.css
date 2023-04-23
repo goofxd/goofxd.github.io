@@ -309,13 +309,19 @@ background:#121212;
     height: 210px;
     position: relative;
     overflow: hidden;
-    border-radius: 1em;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+    border-radius: 0;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    transition: 0.8s cubic-bezier(0, 0, 0.2, 1);
+   
     z-index: 1;
   }
+
+.card:hover {
+    transform: scale(1.035, 1.035);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  }
+
+
 
   h3 {
     color: #fff;
@@ -340,20 +346,11 @@ background:#121212;
     height: 110%;
     width: 100%;
     z-index: -1;
-    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-    filter: brightness(0.5);
+   
+    filter: brightness(0.8);
   }
 
-  .card:hover {
-    transform: scale(1.035, 1.035);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
-  }
-
-  .card:hover img {
-    transform: translateY(-10px);
-    
-  }
-
+  
 
 
 
