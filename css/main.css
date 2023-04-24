@@ -306,19 +306,19 @@ background:#121212;
   }
 
   .card {
-    height: 210px;
+    height: 200px;
     position: relative;
     overflow: hidden;
     border-radius: 0;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 2fr 2fr ;
    
     z-index: 1;
   }
 
 .card:hover {
-    transform: scale(1.035, 1.035);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    transform: scale(1.020, 1.020);
+   
   }
 
 
@@ -347,7 +347,7 @@ background:#121212;
     width: 100%;
     z-index: -1;
    
-    filter: brightness(0.8);
+    filter: brightness(0.75);
   }
 
   
