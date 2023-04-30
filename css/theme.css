@@ -5,6 +5,7 @@
 
 * {
     font-family: "Poppins", sans-serif;
+    color: #fff;
   }
 
 pin {
@@ -23,7 +24,8 @@ body{
 
 h5 {
   line-height:250%;
-      font-family: Arial;
+     font-family: Arial;
+ color: #fff;
 }
 iframe {
   line-height:100%;
@@ -130,16 +132,13 @@ wgdev {
 }
 
 iframe{
-    text-align: center;
+  text-align: right;
   display:block;
-    color: #fff;
-    height: 700px;
-  width: 100%;
-  resize: both;
-  overflow: auto;
-  border-style: solid;
-  border-color:black;
-  border: 10px solid transparent
+  color: #fff;
+  
+  border: hidden;
+  overflow: hidden;
+  
 }
 
 
