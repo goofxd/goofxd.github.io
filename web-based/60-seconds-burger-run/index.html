@@ -2,48 +2,36 @@
 <html>
 
 <head>
-  <link rel="stylesheet" type="text/css" href="../../css/theme.css">
-  <link rel="stylesheet" type="text/css" href="../../css/navbar.css">
-    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="/css/theme.css">
+  <link rel="stylesheet" type="text/css" href="/css/navbar.css">
+   <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <div class="navbar">
+    <a href="/">Home</a>
+     <a href="/web-based/">Web Based</a>
+     <a href="/downloads/">Downloads</a>
+    <a href="/tools/">Tools</a>
+    <title>60 Seconds Burger Run</title>
+</div>
 </head>
-
-<div class="navbar">
-  <a href="/">Home</a>
-  <a href="/web-based/">Web Based</a>
-  <a href="/downloads/">Downloads</a>
-  <a href="/tools/">Tools</a>
-</div>
-</div>
-
-<h1>60 Seconds Burger Run</h1>
-
-
-
+<body>
 <br><br><br>
-<embed height="600px" width="990px" src="gamefiles/play.html" id="fullscreen"></embed>
-</center>
+<h1>60 Seconds Burger Run</h1>
 <br>
 <center>
-  <button onclick="openFullscreen()"">Enter Fullscreen</button>
+<iframe id="fullscreen" height="600px" width="990px" src="https://files.itsjustnot.repl.co/60-seconds-burger-run/index.html" ></iframe>
+<br>
+<button onclick="openFullscreen()">Enter Fullscreen</button>
 </center>
- <br>
+<br>
 <script>
   var elem = document.getElementById("fullscreen"); function openFullscreen() {
-    if (elem.requestFullscreen) {
+   if (elem.requestFullscreen) {
       elem.requestFullscreen();
     } else if (elem.webkitRequestFullscreen) { /* Safari */ elem.webkitRequestFullscreen();}
     else if (elem.msRequestFullscreen) { /* IE11 */ elem.msRequestFullscreen();}
-  } </script>
-
-
-    <Comments>
-      <script src="https://giscus.app/client.js" data-repo="itsnut/itsnut.github.io" data-repo-id="R_kgDOJGuDMw"
-        data-category="General" data-category-id="DIC_kwDOJGuDM84CV9UR" data-mapping="pathname" data-strict="0"
-        data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="dark" data-lang="en"
-        crossorigin="anonymous" async>
-        </script>
-    </Comments>
-    <div class="area">
+  } 
+</script>  
+<div class="area">
       <ul class="circles">
         <li></li>
         <li></li>
@@ -56,8 +44,6 @@
         <li></li>
         <li></li>
       </ul>
-
     </div>
-
-
+</body>
 </html>

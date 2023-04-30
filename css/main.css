@@ -42,10 +42,12 @@ background:#121212;
   }
 
 
+
   .context h1 {
     text-align: center;
     color: #fff;
     font-size: 24px;
+    margin: 40px 0 0 20px;
   }
 
   .context h2 {

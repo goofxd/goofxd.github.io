@@ -23,7 +23,7 @@ var MainGame = {
 	test: false,
 	fadeColor: 0,
 	textFPS: null,
-	showFPS: false,
+	showFPS: true,
 	isPaused: false,
 	isGoAway: false,
 	isMusicMuted: false,
@@ -1442,7 +1442,7 @@ MainGame.MainMenu.prototype = {
 			splashka.scale.setTo(.5);
 			var splashkaTween = game.add.tween(splashka).to({
 				alpha: 0
-			}, 300, Phaser.Easing.Linear.None, true, 1500);
+			}, 100, Phaser.Easing.Linear.None, true, 0);
 			splashkaTween.onComplete.add(function() {
 				splashka.destroy();
 				this.initMenu()
