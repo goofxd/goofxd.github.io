@@ -1,76 +1,49 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="/../../css/theme.css">
-        <link rel="stylesheet" type="text/css" href="/../../css/navbar.css">
-        </head>
 
- <div class="navbar">
-      <a href="./../../../">Home</a>
-      <a href="./../../../web-based/">Web Based</a>
-      <a href="./../../../downloads/">Downloads</a>
-       <a href="./../../../tools/">Tools</a>
-    </div>
+<head>
+  <link rel="stylesheet" type="text/css" href="/css/theme.css">
+  <link rel="stylesheet" type="text/css" href="/css/navbar.css">
+   <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <div class="navbar">
+    <a href="/">Home</a>
+     <a href="/web-based/">Web Based</a>
+     <a href="/downloads/">Downloads</a>
+    <a href="/tools/">Tools</a>
+    <title>Run 2</title>
 </div>
-
-    <h1>Run 2</h1>
- 
-   
-    
-      <br><br><br>
- <embed height="600px" width="800px" src="gamefiles/play.html" id="fullscreen"></embed>
-</center>
+</head>
+<body>
+<br><br><br>
+<h1>Run 2</h1>
 <br>
 <center>
-<button onclick="openFullscreen()"">Enter Fullscreen</button>
+<iframe id="fullscreen" width="800px" height="600px" src="https://files.itsjustnot.repl.co/run-2/index.html" ></iframe>
+<br>
+<button onclick="openFullscreen()">Enter Fullscreen</button>
 </center>
- <br>
+<br>
 <script>
-var elem = document.getElementById("fullscreen");
-function openFullscreen() {
-  if (elem.requestFullscreen) {
-    elem.requestFullscreen();
-  } else if (elem.webkitRequestFullscreen) { /* Safari */
-    elem.webkitRequestFullscreen();
-  } else if (elem.msRequestFullscreen) { /* IE11 */
-    elem.msRequestFullscreen();
-  }
-}
-</script>
-   
-
-<Comments>
-    <script src="https://giscus.app/client.js"
-        data-repo="itsnut/itsnut.github.io"
-        data-repo-id="R_kgDOJGuDMw"
-        data-category="General"
-        data-category-id="DIC_kwDOJGuDM84CV9UR"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="dark"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-    </script>
-</Comments>
+  var elem = document.getElementById("fullscreen"); function openFullscreen() {
+   if (elem.requestFullscreen) {
+      elem.requestFullscreen();
+    } else if (elem.webkitRequestFullscreen) { /* Safari */ elem.webkitRequestFullscreen();}
+    else if (elem.msRequestFullscreen) { /* IE11 */ elem.msRequestFullscreen();}
+  } 
+</script>  
 <div class="area">
-    <ul class="circles">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-
-  </div>
-
-
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+</body>
 </html>

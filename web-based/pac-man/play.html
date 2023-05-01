@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+  <link rel="stylesheet" href="/css/ruffle.css">
+  <title>PacMan</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
- <link rel="stylesheet" href="/css/ruffle.css">
 </head>
 <body>
 <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
@@ -16,7 +16,7 @@ window.RufflePlayer = window.RufflePlayer || {};
         const player = ruffle.createPlayer();
         const container = document.getElementById("ruffle-container");
         container.appendChild(player);
-        player.load("https://files.itsjustnot.repl.co/swf/run.swf"); 
+        player.load("https://files.itsjustnot.repl.co/swf/pacman.swf"); 
 });
 window.RufflePlayer.config = {
       letterbox: "on",
