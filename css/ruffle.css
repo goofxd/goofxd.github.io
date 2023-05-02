@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
 
 ruffle-player, ruffle-object, ruffle-embed {
-     --splash-screen-background: #1c1c1c;
+     --splash-screen-background: #;
      --logo-display: block;
+       font-family: 'Poppins';
        width: 100vw;
        height: 100vh;
-       font-family: 'Poppins';
 }
 body{
 overflow: hidden;

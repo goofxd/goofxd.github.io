@@ -273,7 +273,7 @@ background:#121212;
 
   .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 2rem;
     margin: 2rem;
 
@@ -345,11 +345,11 @@ background:#121212;
   img {
     position: absolute;
     top: 0;
-    height: 110%;
+    height: 100%;
     width: 100%;
     z-index: -1;
    
-    filter: brightness(0.75);
+    filter: brightness(0.7);
   }
 
   
