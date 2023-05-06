@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
 
-  hx {
+hx {
     font-size: 10px;
   }
 
@@ -313,9 +313,8 @@ background:#121212;
     overflow: hidden;
     border-radius: 0;
     display: grid;
-    grid-template-rows: 2fr 2fr ;
-   
-    z-index: 1;
+    grid-template-rows: 1fr ;
+   z-index: 1;
   }
 
 .card:hover {
@@ -334,7 +333,7 @@ background:#121212;
   }
 
   p {
-    color: white;
+    color: #fff;
     font-weight: 400;
     font-size: 18px;
     align-self: end;
@@ -348,8 +347,7 @@ background:#121212;
     height: 100%;
     width: 100%;
     z-index: -1;
-   
-    filter: brightness(0.7);
+   filter: brightness(0.7);
   }
 
   
@@ -363,7 +361,7 @@ background:#121212;
 
   button {
     display: inline-block;
-    border-radius: 4px;
+    border-radius: 0px;
     background-color: #2d2d2d;
     border: none;
     color: #FFFFFF;
