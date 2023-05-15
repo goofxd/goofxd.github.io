@@ -1,0 +1,164 @@
+{
+    "c2array": true,
+    "size": [
+        2,
+        25,
+        1
+    ],
+    "data": [
+        [
+            [
+                "Стрелка вправо - бежать вправо&Стрелка влево - бежать влево"
+            ],
+            [
+                "Стрелка вверх - прыжок!"
+            ],
+            [
+                "Стрелка вправо/\"D\" - бежать вправо&Стрелка влево/\"A\" - бежать влево"
+            ],
+            [
+                "Стрелка вверх/\"W\" прыгнуть!"
+            ],
+            [
+                "Прыгай в портал, друг!"
+            ],
+            [
+                "Так держать!"
+            ],
+            [
+                "Хей, а что если прыгнуть на этих слизней?"
+            ],
+            [
+                "Берегись стрел, друг!"
+            ],
+            [
+                "Ты крут!"
+            ],
+            [
+                "Давай подождём лифт..."
+            ],
+            [
+                "Не стой долго на песке!"
+            ],
+            [
+                "Стикмен паркур"
+            ],
+            [
+                "Прыгни на край, чтобы забраться!"
+            ],
+            [
+                "Сейчас нужно идти влево!"
+            ],
+            [
+                "Пропустить уровень"
+            ],
+            [
+                "Пауза"
+            ],
+            [
+                "Не нажимай на плиты!"
+            ],
+            [
+                "Это лёд. Он скользкий. Круто!"
+            ],
+            [
+                "Пол - это лава!"
+            ],
+            [
+                "Прыгай по лодкам и не падай в воду, друг!"
+            ],
+            [
+                "Вау! Ты царь горы!"
+            ],
+            [
+                "Хей, мы в компьютере! Круто!"
+            ],
+            [
+                "Уровни"
+            ],
+            [
+                "Windows уровни"
+            ],
+            [
+                "Играть"
+            ]
+        ],
+        [
+            [
+                "Right Arrow/\"D\" - run right&Left Arrow/\"A\" - run left"
+            ],
+            [
+                "Up Arrow - Jump!\n"
+            ],
+            [
+                "Right Arrow/\"D\" - run right&Left Arrow/\"A\" - run left"
+            ],
+            [
+                "Press Up Arrow or \"W\" to jump!"
+            ],
+            [
+                "Let's jump into the portal, buddy!"
+            ],
+            [
+                "Keep it up!"
+            ],
+            [
+                "Hey, what if you jump on those slimes?"
+            ],
+            [
+                "Watch out for arrows, dude!"
+            ],
+            [
+                "You are cool!"
+            ],
+            [
+                "Let's wait for the elevator..."
+            ],
+            [
+                "Don't stay long on the sand!"
+            ],
+            [
+                "Stickman Parkour"
+            ],
+            [
+                "Jump up to the edge to climb up!"
+            ],
+            [
+                "Now you need to go to the left!\n"
+            ],
+            [
+                "Skip this level"
+            ],
+            [
+                "Pause"
+            ],
+            [
+                "Don't press the plates!"
+            ],
+            [
+                "This is ice. It's slippery. Cool!"
+            ],
+            [
+                "The floor is lava!"
+            ],
+            [
+                "Jump on the boats and don't fall into the water, friend!"
+            ],
+            [
+                "Wow! You are the king of the hill!"
+            ],
+            [
+                "Hey, we're inside a computer! Cool!"
+            ],
+            [
+                "Levels"
+            ],
+            [
+                "Windows Levels"
+            ],
+            [
+                "Play"
+            ]
+        ]
+    ]
+}
