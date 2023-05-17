@@ -1,0 +1,30 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="TemplateData/style.css">
+<script src="TemplateData/UnityProgress.js"></script>
+<script src="TemplateData/UnityLoader.js"></script>
+<script type="text/javascript">
+ var gameInstance;
+ window.onload = function() {
+gameInstance = UnityLoader.instantiate("gameContainer", "Build/bottleflip.json", {
+                onProgress: UnityProgress,
+                Module: {
+                    onRuntimeInitialized: function() {
+                        UnityProgress(gameInstance, "complete")
+                    }
+                }
+            });
+            
+        }
+    
+</script>
+</head>
+<body>
+<center>
+<div class="webgl-content">
+<div id="gameContainer" style="width: 35%; height: 100%; text-align: center; "></div>
+</div>
+</center>
+</body>
+<html>
