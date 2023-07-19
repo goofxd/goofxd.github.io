@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Clear Site Data</title>
+</head>
+<body>
+  <button id="clearButton">Clear Site Data</button>
+  <script>
+    // Function to handle the click event of the clearButton
+    function clearSiteData() {
+      // Clear sessionStorage
+      sessionStorage.clear();
+
+      // Clear cookies for the current domain
+      var cookies = document.cookie.split("; ");
+      for (var i = 0; i < cookies.length; i++) {
+        var cookie = cookies[i];
+        var eqPos = cookie.indexOf("=");
+        var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+        document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/";
+      }
+
+      alert('Site data (sessionStorage and cookies) for itsnut.github.io has been cleared successfully!');
+    }
+
+    // Add a click event listener to the clearButton
+    document.getElementById('clearButton').addEventListener('click', clearSiteData);
+  </script>
+</body>
+</html>
