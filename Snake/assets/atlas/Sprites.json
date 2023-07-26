@@ -1,0 +1,30 @@
+{"frames": [
+{
+	"filename": "Button",
+	"frame": {"x":93,"y":1,"w":160,"h":43},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":43},
+	"sourceSize": {"w":160,"h":43}
+},
+{
+	"filename": "ButtonOver",
+	"frame": {"x":93,"y":46,"w":160,"h":43},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":43},
+	"sourceSize": {"w":160,"h":43}
+},
+{
+	"filename": "Black",
+	"frame": {"x":1,"y":1,"w":90,"h":90},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":90},
+	"sourceSize": {"w":90,"h":90}
+}
+],
+"meta": {
+	"app": "Spritor"
+}
+}

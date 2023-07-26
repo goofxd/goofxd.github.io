@@ -1,0 +1,45 @@
+{
+  "en": {
+    "TXT_START_PC": "Use the arrow keys on your keyboard\nto control the snake",
+    "TXT_START_MOBILE": "Use taps or swipes\nto control the snake",
+    "TXT_GAME_OVER": "GAME OVER",
+    "TXT_CONGRATS": "CONGRATULATIONS!\nYou got a new HIGH SCORE!",
+    "TXT_START_BUTTON": "Start Game",
+    "TXT_PLAY_AGAIN_BUTTON": "Play Again",
+    "TXT_LENGTH": "Length: ",
+    "TXT_BEST": "Best: ",
+    "TXT_PAUSE": "[Paused]\nPress [space] to unpause."
+  },
+
+  "ja": {
+    "TXT_START": "JA This is test"
+  },
+
+  "de": {
+    "TXT_START": "DE This is test"
+  },
+
+  "it": {
+    "TXT_START": "IT This is test"
+  },
+
+  "es": {
+    "TXT_START": "ES This is test"
+  },
+
+  "pt": {
+    "TXT_START": "PT This is test"
+  },
+
+  "fr": {
+    "TXT_START": "FR This is test"
+  },
+
+  "tr": {
+    "TXT_START": "TR This is test"
+  },
+
+  "ru": {
+    "TXT_START": "RU This is test"
+  }
+}
