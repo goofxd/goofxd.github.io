@@ -1,11 +1,11 @@
 ruffle-player, ruffle-object, ruffle-embed {
-     --splash-screen-background: #2a2a2a;
+     --splash-screen-background: #000;
      --logo-display: block;
-       width: 100vw;
-       height: 100vh;
+       width: 100%;
+       height: 98.25vh;
 }
 
 body{
 overflow: hidden;
-margin:0;
+
 }
