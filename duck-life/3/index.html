@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/css/ruffle.css">
+</head>
+<body>
+<script src="/ruffle/ruffle.js"></script>
+<div id="ruffle-container">
+<script>
+window.RufflePlayer = window.RufflePlayer || {};
+     window.RufflePlayer = window.RufflePlayer || {};
+    window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        const container = document.getElementById("ruffle-container");
+        container.appendChild(player);
+        player.load("duck-life-3.swf"); 
+});
+window.RufflePlayer.config = {
+      letterbox: "on",
+      autoplay: "on",
+      backgroundColor: null,
+      unmuteOverlay: "hidden",
+}
+</script>
+ </body>
+</html>
